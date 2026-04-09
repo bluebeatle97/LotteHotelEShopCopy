@@ -41,7 +41,7 @@ console.log("현재 리덕스 카트 상태:", cart);
     <div className="navibarCont">
       <div className="brandLogo" onClick={() => navigate("/")}>
         {/* 3. 로고: isDark가 true면 검정 로고, false면 흰색 로고 */}
-        <img src={isDark ? "/img/logo.svg" : "/img/logow.svg"} alt="로고" />
+        <img src={isDark ? "{process.env.PUBLIC_URL}/img/logo.svg" : "{process.env.PUBLIC_URL}/img/logow.svg"} alt="로고" />
       </div>
         {/* 수정: 각 li에 handleMenuHover 연결 (데이터 매칭 핵심) */}
         <ul className="navMenu">
@@ -64,22 +64,22 @@ console.log("현재 리덕스 카트 상태:", cart);
           <li className="barItem"><span className="bar"></span></li>
 
           <li className="brandLogo" onClick={() => navigate("/")}>
-            <img src={isDark ? "/img/top_hotel_logo2.png" : "/img/top_hotel_logo_white.png"} alt="브랜드로고" />
+            <img src={isDark ? "{process.env.PUBLIC_URL}/img/top_hotel_logo2.png" : "{process.env.PUBLIC_URL}/img/top_hotel_logo_white.png"} alt="브랜드로고" />
           </li>
         </ul>
 
         <ul className="iconMenu">
          <li onClick={() => navigate("/")}>
-          <img src={isDark ? "/img/ico_search.png" : "/img/ico_search_white.png"} alt="검색" />
+          <img src={isDark ? "{process.env.PUBLIC_URL}/img/ico_search.png" : "{process.env.PUBLIC_URL}/img/ico_search_white.png"} alt="검색" />
         </li>
         <li onClick={() => navigate("/")}>
-          <img src={isDark ? "/img/ico_mypage.png" : "/img/ico_mypage_white.png"} alt="로그인" />
+          <img src={isDark ? "{process.env.PUBLIC_URL}/img/ico_mypage.png" : "{process.env.PUBLIC_URL}/img/ico_mypage_white.png"} alt="로그인" />
         </li>
         <li onClick={() => navigate("/")}>
-          <img src={isDark ? "/img/ico_resent.png" : "/img/ico_resent_w.png"} alt="최근본상품" />
+          <img src={isDark ? "{process.env.PUBLIC_URL}/img/ico_resent.png" : "{process.env.PUBLIC_URL}/img/ico_resent_w.png"} alt="최근본상품" />
         </li>
         <li onClick={() => navigate("/cart")} className="cartLi">
-          <img src={isDark ? "/img/pc_ico_cart_white_b.png" : "/img/pc_ico_cart_white_w.png"} alt="장바구니" />
+          <img src={isDark ? "{process.env.PUBLIC_URL}/img/pc_ico_cart_white_b.png" : "{process.env.PUBLIC_URL}/img/pc_ico_cart_white_w.png"} alt="장바구니" />
             {totalCount > 0 &&<span className="cartBadge">{totalCount}</span>}
         </li>
         </ul>
@@ -108,7 +108,7 @@ console.log("현재 리덕스 카트 상태:", cart);
 
     {/* 3구역: 이미지 영역 (33.3%) */}
     <div className="dropdownSection imgCont">
-      <img src="/img/top-b.png" alt="드롭박스이미지" />
+      <img src="{process.env.PUBLIC_URL}/img/top-b.png" alt="드롭박스이미지" />
     </div>
 
     {/* 닫기 버튼 */}

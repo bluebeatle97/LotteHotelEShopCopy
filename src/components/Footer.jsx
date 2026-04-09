@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 function Footer() {
+  const pUrl = process.env.PUBLIC_URL;
   return (
     <div className="footerBox">
       <div className="footerCont">
