@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/LotteHotelEShopCopy/static/css/main.ae55365a.css",
+    "main.js": "/LotteHotelEShopCopy/static/js/main.a9cf5919.js",
+    "static/js/453.520ab9d8.chunk.js": "/LotteHotelEShopCopy/static/js/453.520ab9d8.chunk.js",
+    "index.html": "/LotteHotelEShopCopy/index.html",
+    "main.ae55365a.css.map": "/LotteHotelEShopCopy/static/css/main.ae55365a.css.map",
+    "main.a9cf5919.js.map": "/LotteHotelEShopCopy/static/js/main.a9cf5919.js.map",
+    "453.520ab9d8.chunk.js.map": "/LotteHotelEShopCopy/static/js/453.520ab9d8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae55365a.css",
+    "static/js/main.a9cf5919.js"
+  ]
+}
