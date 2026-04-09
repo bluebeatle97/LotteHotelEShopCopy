@@ -16,10 +16,10 @@ function App() {
       <Navibar />
       <Routes>
         <Route path="/" element={<Main />} />
+        <Route path="/cart" element={<Cart />} />
         <Route path="/:category/:subcategory?" element={<Product />} />
         <Route path="/:category/detail/:id" element={<ProductDetail />} />
         <Route path="*" element={<div>404: 없는 페이지야!</div>} />
-        <Route path="/cart" element={<Cart />} />
       </Routes>
       <Footer />
     </div>

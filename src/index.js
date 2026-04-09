@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Provider store={store}> {/* ★ 앱 전체를 Provider로 감싸기 */}
-      <BrowserRouter>
+      <BrowserRouter basename="/LotteHotelEShopCopy">
         <App />
       </BrowserRouter>
     </Provider>
