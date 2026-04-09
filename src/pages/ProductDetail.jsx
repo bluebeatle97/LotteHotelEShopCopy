@@ -95,8 +95,8 @@ const dispatch = useDispatch();
                   <div className="tit_box">
                     <h1>{item.content}</h1>
                     <div className="btn-box">
-                      <button className="btn_add_wish"><img src="/img/ico_wish.png" alt="찜" /></button>
-                      <button className="btn_gray_mid"><img src="/img/ico-view-share.png" alt="공유" /></button>
+                      <button className="btn_add_wish"><img src={`${process.env.PUBLIC_URL}/img/ico_wish.png`} alt="찜" /></button>
+                      <button className="btn_gray_mid"><img src={`${process.env.PUBLIC_URL}/img/ico-view-share.png`} alt="공유" /></button>
                     </div>
                   </div>
                 </div>

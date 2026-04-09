@@ -1,13 +1,12 @@
 import React from "react";
 import "../App.css";
 function Footer() {
-  const pUrl = process.env.PUBLIC_URL;
   return (
     <div className="footerBox">
       <div className="footerCont">
         <div className="footerLogo">
           <img
-            src="/img/cbde9d2fe3dfd047b392b92b1acd1b66_73911.png"
+            src={`${process.env.PUBLIC_URL}/img/cbde9d2fe3dfd047b392b92b1acd1b66_73911.png`}
             alt="로고"
           />
         </div>
@@ -64,14 +63,14 @@ function Footer() {
           </div>
           <div className="footerSnsBox">
             <ul className="footerSnspc">
-              <li><img src="/img/ico_footer_facebook.png" alt="facebook" /></li>
-              <li><img src="/img/ico_footer_insta.png" alt="instargram" /></li>
-              <li><img src="/img/ico_footer_ytb.png" alt="youtube" /></li>
+              <li><img src={`${process.env.PUBLIC_URL}/img/ico_footer_facebook.png`} alt="facebook" /></li>
+              <li><img src={`${process.env.PUBLIC_URL}/img/ico_footer_insta.png`} alt="instargram" /></li>
+              <li><img src={`${process.env.PUBLIC_URL}/img/ico_footer_ytb.png`} alt="youtube" /></li>
             </ul>
           </div>
           <div className="footerGettopBox">
             <div className="footerGettopGo">
-              <img src="/img/icon_top_pc.png" alt="goTop" />
+              <img src={`${process.env.PUBLIC_URL}/img/icon_top_pc.png`} alt="goTop" />
             </div>
             </div>
           

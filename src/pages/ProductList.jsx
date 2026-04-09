@@ -131,7 +131,7 @@ if (!productData[mainCat]) {
               onChange={(e) => setInput(e.target.value)}
             />
             <button className="search-btn">
-              <img src="/img/ico_search.png" alt="검색" /> 
+              <img src={`${process.env.PUBLIC_URL}/img/ico_search.png`} alt="검색" /> 
             </button>
           </div>
         </div>

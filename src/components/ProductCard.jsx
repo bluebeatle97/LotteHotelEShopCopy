@@ -31,13 +31,13 @@ const ProductCard = ({ item, category }) => {
           {item.imgUrl[1] && <img src={item.imgUrl[1]} alt={item.content} className="hover-img" />}
         </Link>
         <div className="btns">
-          <button className="btn_basket_get" style={{ backgroundImage: "url('/img/ico_wish.png')" }}>
+          <button className="btn_basket_get" style={{ backgroundImage: `url('${process.env.PUBLIC_URL}/img/ico_wish.png')` }}>
             <span>찜하기</span>
           </button>
           {/* 4. onClick 연결 [cite: 2026-03-25] */}
           <button 
             className="btn_basket_cart" 
-            style={{ backgroundImage: "url('/img/ico_cart.png')" }}
+            style={{ backgroundImage: `url('${process.env.PUBLIC_URL}/img/ico_cart.png')` }}
             onClick={handleCart}
           >
             <span>장바구니</span>
