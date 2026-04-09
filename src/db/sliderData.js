@@ -1,7 +1,7 @@
 const sliderData = [
   {
     id: 1,
-    imgUrl: `${process.env.PUBLIC_URL}/img/42d333dfe2ed88a599d232dd98ff8790_55415.jpg`,
+    imgUrl: `/LotteHotelEShopCopy/img/42d333dfe2ed88a599d232dd98ff8790_55415.jpg`,
   },
   {
     id: 2,
