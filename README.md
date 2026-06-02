@@ -37,15 +37,37 @@
 
 ## 🖥️ 기능 구현 PPT
 
-| <img src="./public/img/ppt/1.png" width="500"> | <img src="./public/img/ppt/2.png" width="500"> |
-| :---: | :---: |
-| <img src="./public/img/ppt/3.png" width="500"> | <img src="./public/img/ppt/4.png" width="500"> |
-| <img src="./public/img/ppt/5.png" width="500"> | <img src="./public/img/ppt/6.png" width="500"> |
-| <img src="./public/img/ppt/7.png" width="500"> | <img src="./public/img/ppt/8.png" width="500"> |
-| <img src="./public/img/ppt/9.png" width="500"> | <img src="./public/img/ppt/10.png" width="500"> |
-| <img src="./public/img/ppt/11.png" width="500"> | <img src="./public/img/ppt/12.png" width="500"> |
-| <img src="./public/img/ppt/13.png" width="500"> | <img src="./public/img/ppt/14.png" width="500"> |
-| <img src="./public/img/ppt/15.png" width="500"> | <img src="./public/img/ppt/16.png" width="500"> |
+<img src="./public/img/ppt/1.png" width="700">
+
+<img src="./public/img/ppt/2.png" width="700">
+
+<img src="./public/img/ppt/3.png" width="700">
+
+<img src="./public/img/ppt/4.png" width="700">
+
+<img src="./public/img/ppt/5.png" width="700">
+
+<img src="./public/img/ppt/6.png" width="700">
+
+<img src="./public/img/ppt/7.png" width="700">
+
+<img src="./public/img/ppt/8.png" width="700">
+
+<img src="./public/img/ppt/9.png" width="700">
+
+<img src="./public/img/ppt/10.png" width="700">
+
+<img src="./public/img/ppt/11.png" width="700">
+
+<img src="./public/img/ppt/12.png" width="700">
+
+<img src="./public/img/ppt/13.png" width="700">
+
+<img src="./public/img/ppt/14.png" width="700">
+
+<img src="./public/img/ppt/15.png" width="700">
+
+<img src="./public/img/ppt/16.png" width="700">
 
 ## 🔎 프로젝트 리뷰
 
